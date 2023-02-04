@@ -44,3 +44,12 @@ body {
     height: 300px;
     margin: 50px;
 }
+
+.home-link {
+    margin-top: -95px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+    display: block;
+}
+
