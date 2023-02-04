@@ -1,0 +1,16 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
+    background-color: darkslategray;
+}
+
+.link {
+    font-size: 28px;
+    background-color: aquamarine;
+    color: navy;
+}
