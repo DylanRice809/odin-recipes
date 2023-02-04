@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -7,7 +8,12 @@ body {
 }
 
 .main-text {
-  margin: 10px;
+    margin: 10px;
+}
+
+.recipe-text {
+  margin-left: 500px;
+  margin-top: -355px;
 }
 
 .title {
@@ -22,8 +28,8 @@ body {
 
 .link {
     font-size: 28px;
-    background-color: aquamarine;
-    color: navy;
+    background-color: antiquewhite;
+    color: darkslategray;
 }
 
 #test {
@@ -34,11 +40,7 @@ body {
 }
 
 .image {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 300px;
     margin: 50px;
-}
-
-.test {
-    display: inline;
 }
