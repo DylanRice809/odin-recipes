@@ -16,18 +16,27 @@ body {
   flex: initial;
 }
 
+
+.spacing {
+    color: darkslategray;
+}
+
+.flex-head {
+    display: flex;
+    background-color: darkslategray;
+    color: antiquewhite;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .flex-body {
     display: flex;
 }
 
 .title {
-    text-align: center;
     font-size: 50px;
-    color: antiquewhite;
-    background-color: darkslategray;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    align-self: center;
 }
 
 .link {
@@ -55,10 +64,7 @@ body {
 }
 
 .home-link {
-    margin-top: -95px;
-    margin-left: 55px;
-    margin-bottom: 50px;
     color: antiquewhite;
-    display: block;
+    align-self: center;
 }
 
